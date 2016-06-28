@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.lazyboy.bibleapp.SplashSreen">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <ImageView
+        android:id="@+id/splashico"
+        android:layout_centerInParent="true"
+        android:layout_width="234dp"
+        android:layout_height="235dp"
+        android:background="@mipmap/ic_splash"/>
+
+    <TextView
+        android:layout_below="@id/splashico"
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/bible_app"
+        android:textColor="#256881"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_below="@id/fullscreen_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Version 1.0"/>
+
+  </RelativeLayout>

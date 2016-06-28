@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BibleApp</string>
+    <string name="my_tb_title">Bible APP</string>
+    <string name="info">Info :</string>
+    <string name="searchable">searchable</string>
+
+    <string name="title_activity_splash_sreen">SplashSreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="bible_app">Bible App</string>
+</resources>

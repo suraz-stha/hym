@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#e1e1e1"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.lazyboy.bibleapp.HymnDetail">
+
+  <include layout="@layout/toolbar" android:id="@+id/my_toolbar"/>
+
+  <!--  <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>-->
+
+
+
+    <TextView
+        android:id="@+id/hymn_detail_title"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hymn No 112 "
+        android:layout_marginBottom="16dp"
+        />
+
+  <ScrollView
+      android:padding="16dp"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hymn_detail"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kjasd  ksajd akj  asdkja sdkjasd kj askjd as askjd  asskj asdkj sa askjd
+        sasadkjsad  assjkd a kjasd a k as  jksd ass asjk as as  sad sasa uas  a sakj
+        askjd   askdj as  kasdj asdiu as askjd u "
+        />
+  </ScrollView>
+
+    </LinearLayout>
+
