@@ -1,19 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/hym_no"
-    android:layout_width="58dp"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_gravity="center"
     android:layout_margin="4dp"
-    android:background="@drawable/liststyle"
-    android:clickable="true"
-    android:digits="@string/app_name"
-    android:padding="4dp"
+ >
 
-    android:text="111"
-    android:textAlignment="center"
-    android:textColor="#fff"
-    android:textSize="24sp"
-    android:typeface="sans" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/hym"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:digits="@string/app_name"
+        android:paddingTop="28dp"
+        android:paddingLeft="18dp"
+        android:text="Hymn"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:typeface="sans" />
+    <TextView
+        android:id="@+id/hym_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:digits="@string/app_name"
+        android:gravity="center_vertical"
+        android:paddingLeft="24dp"
+        android:layout_centerVertical="true"
+        android:text="111"
+        android:textAlignment="gravity"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+
+</RelativeLayout>
 

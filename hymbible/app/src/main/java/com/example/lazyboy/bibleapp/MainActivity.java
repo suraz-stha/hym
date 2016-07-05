@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
-        gridLayoutManager = new GridLayoutManager(this,5);
+        gridLayoutManager = new GridLayoutManager(this,4);
         myAdapter = new MyAdapter(hymnList,queary);
         recyclerView.setLayoutManager(gridLayoutManager);
         recyclerView.setAdapter(myAdapter);
