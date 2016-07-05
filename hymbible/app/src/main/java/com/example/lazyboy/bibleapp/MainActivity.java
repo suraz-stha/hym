@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
-        gridLayoutManager = new GridLayoutManager(this,4);
+        gridLayoutManager = new GridLayoutManager(this,6);
         myAdapter = new MyAdapter(hymnList,queary);
         recyclerView.setLayoutManager(gridLayoutManager);
         recyclerView.setAdapter(myAdapter);
@@ -104,7 +104,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void prePareHym(){
-        Hymn hymn =new Hymn("123","askjdhasjkdhksadkkjasdjasdkjasdkkj");
+        Hymn hymn =new Hymn("545","मनको तराईमा \n" +
+                "\n" +
+                "को:  मनको तराईमा यशू तिमीलाई सजाएँ ।। \n" +
+                "आखाँको नानीमा प्रभु तिमीलाई बसाएँ ।\n" +
+                "मनको तराईमा...\n" +
+                "\n" +
+                "१. मेरो जीवनको स्वामी तिमी हौ, अनन्त अनन्तको \n" +
+                "साथी तिमी हौ ।। तिमी नै मेरो पालन कर्ता ।। \n" +
+                "तिमी नै मेरो माता पिता ।। \n" +
+                "\n" +
+                "२. मेरो स्वर्गिय राजा तिमी हौ, लिन मलाई चाँडै\n" +
+                "आउने छौ ।। बादलमा हाम्रो भेट हुने छ ।। \n" +
+                "अनन्त अनन्तलाई मिलन हुनेछ । \n");
         hymnList.add(hymn);
         hymn =new Hymn("321","askjdhasjkdhksadkkjasdjasdkjasdkkj");
         hymnList.add(hymn);

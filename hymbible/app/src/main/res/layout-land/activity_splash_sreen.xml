@@ -23,21 +23,15 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="Nepali Hymn"
+        android:text="@string/bible_app"
         android:textColor="#ffffff"
         android:textSize="40sp"
         android:textStyle="bold" />
     <TextView
-    android:id="@+id/version"
-    android:layout_below="@id/fullscreen_content"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerInParent="true"
-    android:text="Version 1.0"/>
-    <TextView
-        android:layout_below="@id/version"
+        android:layout_below="@id/fullscreen_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="creatorisaac.com"/>
+        android:text="Version 1.0"/>
+
   </RelativeLayout>
